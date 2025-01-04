@@ -1,6 +1,6 @@
 # React Three Fiber
 
-Redo of Tesla Cybertruck landing page using React Three Fiber library, with order form page connected to Supabase
+Redo of Tesla Cybertruck landing page using React Three Fiber library and Supabase
 
 ## Technologies
 
@@ -8,7 +8,7 @@ This project was made using React, Bootstrap, React Three Fiber, PostgreSQL (Sup
 
 ## How to use
 
-View demo 
+View demo at https://cybertruck-gamma.vercel.app/
 
 ## Sources
 
