@@ -1,9 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 import { Canvas, useFrame, useThree, useLoader } from "@react-three/fiber";
 import { Environment, Lightformer, ScrollControls, Scroll, useScroll,
- useGLTF, SpotLight, Bounds, Float } from "@react-three/drei";
+ useGLTF, SpotLight, Float } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import Loader from "../components/Loader";
 
