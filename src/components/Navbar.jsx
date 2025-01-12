@@ -10,7 +10,7 @@ const NavbarComp = () => {
       <Container fluid>
         <Navbar.Brand as={NavLink} to="/" className="lfe">
           <img
-            src="src/assets/teslalogo.svg"
+            src="/assets/teslalogo.svg"
             width="200"
             height="50"
             className="d-inline-block align-top pt-3"

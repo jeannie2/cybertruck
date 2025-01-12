@@ -228,7 +228,7 @@ const R3fPage = () => {
                 <video
                 style={{
                     position: "absolute",
-                    top: "400vh",
+                    top: "390vh",
                     left: "25vw",
                     width: "50vw",
                     height: "auto"
@@ -237,7 +237,7 @@ const R3fPage = () => {
                 muted
                 controls
                 >
-                <source src="cybertruck.mp4" type="video/mp4" />
+                <source src="../assets/cybertruck.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
                 </video>
             )}
@@ -253,7 +253,7 @@ const R3fPage = () => {
             >
                 ORDER NOW{" "}
             </button> */}
-            <button className="order-btn" style={{ position: 'absolute', top: '450vh', left: '50vw' }} onClick={() => navigate('/order')}>ORDER NOW </button>
+            <button className="order-btn" style={{ position: 'absolute', top: '430vh', left: '50vw' }} onClick={() => navigate('/order')}>ORDER NOW </button>
             </Scroll>
         </ScrollControls>
         <Environment resolution={512}>
