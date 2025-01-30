@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="container-fluid px-0">
-      <footer className="bg-black d-flex justify-content-center py-3 fixed-bottom sticky-bottom">
+      <footer className="bg-black d-flex justify-content-center py-3 fixed-bottom">
         <ul className="nav text-white">
             <li className="nav-item"><a href="https://www.tesla.com/about" className="nav-link px-2 text-white">Tesla &copy; 2025</a></li>
             <li className="nav-item"><a href="https://www.tesla.com/legal" className="nav-link px-2 text-white">Privacy & Legal</a></li>
