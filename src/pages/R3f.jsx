@@ -11,8 +11,7 @@ const Model = () => {
   const scroll = useScroll();
   const { width, height } = useThree((state) => state.viewport);
   const gltf = useLoader(
-    GLTFLoader,
-    import.meta.env.VITE_CYBERTRUCK_MODEL_URL
+    GLTFLoader, '/assets/cyber_truck.glb'
   );
 
   useFrame(() => (gltf.scene.rotation.y = scroll.offset * Math.PI * 2));
@@ -350,8 +349,8 @@ const R3fPage = () => {
     </div>
   );
 };
-useGLTF.preload(
-    import.meta.env.VITE_CYBERTRUCK_MODEL_URL
-);
+// useGLTF.preload(
+//     import.meta.env.VITE_CYBERTRUCK_MODEL_URL
+// );
 
 export default R3fPage;
